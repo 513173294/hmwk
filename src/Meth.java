@@ -11,33 +11,25 @@ public class Meth {
         int y = sc.nextInt();
 
         if (x > 0 && y > 0) {
-            return "punkt znajduje się w II ćwiartce";
-
-
+            return "punkt (" + x + ", " + y + ") znajduje się w II ćwiartce";
         } else if (x < 0 && y > 0) {
-            return "punkt znajduje się w I ćwiartce";
+            return "punkt (" + x + ", " + y + ") znajduje się w I ćwiartce";
         } else if (x > 0 && y < 0) {
-            System.out.println(" punkt znajduje się w III ćwiartce ");
+            System.out.println(" punkt (" + x + ", " + y + ") znajduje się w III ćwiartce ");
         } else if (x < 0 && y < 0) {
-            System.out.println("punkt znajduje się w IV ćwiartce");
+            System.out.println("punkt (" + x + ", " + y + ")znajduje się w IV ćwiartce");
+        } else if (x == 0 && y == 0) {
+            System.out.println("jestes na srodku");
+        } else if (x == 0 && y < 0) {
+            System.out.println("jestes na osi Y ponizej osi X");
+        } else if (x == 0 && y > 0) {
+            System.out.println("jestes na osi Y powyżej osi X");
+        }else if (x > 0 && y == 0) {
+            System.out.println("jestes na osi X na prawo od osi Y");
+        }else if (x < 0 && y == 0) {
+            System.out.println("jestes na osi X na lewo od osi Y");
         }
-return "gratulacja";
+
+        return "gratulacja";
     }
 }
-//        }
-
-//        System.out.println("podaj współrzędną Y : ");
-//
-//        int y = sc.nextInt();
-//
-//        if (y > 0) {
-////            System.out.println(" górna część ");
-//
-//        } else {
-////            System.out.println(" dolna część ");
-//        }
-//        return "oto wynik";
-//
-//    }
-//
-//}

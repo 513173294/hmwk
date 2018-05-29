@@ -9,5 +9,6 @@ public class Zadanie11 {
         System.out.println(zmienna);
 
 
+
     }
 }
