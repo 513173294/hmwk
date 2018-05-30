@@ -11,13 +11,13 @@ public class Meth {
         int y = sc.nextInt();
 
         if (x > 0 && y > 0) {
-            return "punkt (" + x + ", " + y + ") znajduje się w II ćwiartce";
+            return "punkt (" + x + ", " + y + ") znajduje się w II ćwiartce układu współrzędnych";
         } else if (x < 0 && y > 0) {
-            return "punkt (" + x + ", " + y + ") znajduje się w I ćwiartce";
+            return "punkt (" + x + ", " + y + ") znajduje się w I ćwiartce układu współrzędnych";
         } else if (x > 0 && y < 0) {
-            System.out.println(" punkt (" + x + ", " + y + ") znajduje się w III ćwiartce ");
+            System.out.println(" punkt (" + x + ", " + y + ") znajduje się w III ćwiartce układu współrzędnych");
         } else if (x < 0 && y < 0) {
-            System.out.println("punkt (" + x + ", " + y + ")znajduje się w IV ćwiartce");
+            System.out.println("punkt (" + x + ", " + y + ")znajduje się w IV ćwiartce układu współrzędnych");
         } else if (x == 0 && y == 0) {
             System.out.println("jestes na srodku");
         } else if (x == 0 && y < 0) {
